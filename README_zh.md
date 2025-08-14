@@ -157,6 +157,7 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 - **问题反馈**: [GitHub Issues](https://github.com/your-username/ERNIE-Tutorial/issues)
 - **功能讨论**: [GitHub Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions)
 - **技术交流**: 欢迎在 Issues 中提出技术问题
+- **微信联系**: G_Fuji
 
 ## 🙏 致谢
 

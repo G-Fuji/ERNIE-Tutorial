@@ -152,6 +152,7 @@ This project is licensed under the [Apache 2.0 License](LICENSE). You are free t
 - **Issue Reports**: [GitHub Issues](https://github.com/your-username/ERNIE-Tutorial/issues)
 - **Feature Discussions**: [GitHub Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions)
 - **Technical Exchange**: Welcome to ask technical questions in Issues
+- **WeChat Contact**: G_Fuji
 
 ## 🙏 Acknowledgments
 
