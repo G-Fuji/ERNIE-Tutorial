@@ -54,7 +54,7 @@ This is a comprehensive tutorial series focused on **ERNIE large language model 
 ## 🚀 Quick Start
 
 ### Environment Requirements
-- **Python**: 3.8+ (recommended 3.10)
+- **Python**: 3.10
 - **PaddlePaddle**: Latest version (GPU version)
 - **ERNIEKit**: Latest version
 - **GPU**: Recommended single 80GB A/H series GPU, minimum 24GB VRAM
@@ -67,8 +67,8 @@ This is a comprehensive tutorial series focused on **ERNIE large language model 
 git clone https://github.com/your-username/ERNIE-Tutorial.git
 cd ERNIE-Tutorial
 
-# Install PaddlePaddle GPU version
-pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+# Install PaddlePaddle GPU version (recommended)
+python -m pip install paddlepaddle-gpu==3.1.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
 
 # Clone ERNIEKit repository
 git clone https://github.com/PaddlePaddle/ERNIE.git -b develop
@@ -77,9 +77,10 @@ git clone https://github.com/PaddlePaddle/ERNIE.git -b develop
 cd ERNIE
 pip install -r requirements/gpu/requirements.txt
 
-# Download ERNIE-4.5-0.3B model
-pip install aistudio-sdk
-aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle
+# First install aistudio-sdk library
+pip install --upgrade aistudio-sdk
+# Use aistudio cli to download model
+aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 ```
 
 ### Choose Your Learning Path

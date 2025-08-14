@@ -59,7 +59,7 @@
 
 ### 环境要求
 
-- **Python**: 3.8+ (推荐 3.10)
+- **Python**: 3.10
 - **PaddlePaddle**: 最新版本 (GPU版本)
 - **ERNIEKit**: 最新版本
 - **GPU**: 推荐单张 80GB A/H 系列GPU，最低 24GB 显存
@@ -73,7 +73,7 @@ git clone https://github.com/your-username/ERNIE-Tutorial.git
 cd ERNIE-Tutorial
 
 # 安装 PaddlePaddle GPU 版本
-pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+pip install paddlepaddle-gpu==3.1.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
 
 # 克隆 ERNIEKit 仓库
 git clone https://github.com/PaddlePaddle/ERNIE.git -b develop
@@ -82,9 +82,10 @@ git clone https://github.com/PaddlePaddle/ERNIE.git -b develop
 cd ERNIE
 pip install -r requirements/gpu/requirements.txt
 
-# 下载 ERNIE-4.5-0.3B 模型
-pip install aistudio-sdk
-aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle
+# 首先请先安装aistudio-sdk库
+pip install --upgrade aistudio-sdk
+# 使用aistudio cli下载模型
+aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 ```
 
 ### 选择学习路径
