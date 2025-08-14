@@ -122,8 +122,8 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 We welcome all forms of contributions! Whether it's finding bugs, suggesting improvements, or contributing new tutorial content.
 
 ### Ways to Contribute
-- 🐛 **Bug Reports**: Submit [Issues](https://github.com/your-username/ERNIE-Tutorial/issues) for any problems found
-- 💡 **Feature Suggestions**: Discuss ideas in [Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions)
+- 🐛 **Bug Reports**: Submit [Issues](https://github.com/G-Fuji/ERNIE-Tutorial/issues) for any problems found
+- 💡 **Feature Suggestions**: Discuss ideas in [Discussions](https://github.com/G-Fuji/ERNIE-Tutorial/discussions)
 - 📝 **Documentation**: Help improve tutorial content and code comments
 - 🔧 **Code Contributions**: Submit Pull Requests for new features or fixes
 - 🎓 **Tutorial Extensions**: Contribute new application scenarios and practical cases
@@ -149,8 +149,6 @@ This project is licensed under the [Apache 2.0 License](LICENSE). You are free t
 ## 📞 Contact Us
 
 - **Project Maintainers**: ERNIE Tutorial Team
-- **Issue Reports**: [GitHub Issues](https://github.com/your-username/ERNIE-Tutorial/issues)
-- **Feature Discussions**: [GitHub Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions)
 - **Technical Exchange**: Welcome to ask technical questions in Issues
 - **WeChat Contact**: G_Fuji
 
@@ -159,7 +157,7 @@ This project is licensed under the [Apache 2.0 License](LICENSE). You are free t
 Thanks to the following projects and teams for their support:
 - [Baidu PaddlePaddle](https://github.com/PaddlePaddle/Paddle) - Deep learning framework
 - [ERNIEKit](https://github.com/PaddlePaddle/ERNIE) - Official model development toolkit
-- [ERNIE Model Team](https://wenxin.baidu.com/) - Providing powerful pretrained models
+- [ERNIE Model Team](https://aistudio.baidu.com/modelsoverview) - Providing powerful pretrained models
 - All contributors and users for their feedback and support
 
 ---
@@ -169,6 +167,6 @@ Thanks to the following projects and teams for their support:
 🚀 **Start your ERNIE large model learning journey!**
 
 🔗 **Related Links**
-- [ERNIE Official Documentation](https://ernie-bot.baidu.com/)
+- [AI Studio](https://aistudio.baidu.com/)
 - [PaddlePaddle Official Website](https://www.paddlepaddle.org.cn/)
 - [ERNIEKit GitHub Repository](https://github.com/PaddlePaddle/ERNIE)

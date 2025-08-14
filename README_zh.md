@@ -127,8 +127,8 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 我们欢迎所有形式的贡献！无论是发现bug、提出改进建议，还是贡献新的教程内容。
 
 ### 贡献方式
-- 🐛 **Bug 报告**: 发现问题请提交 [Issue](https://github.com/your-username/ERNIE-Tutorial/issues)
-- 💡 **功能建议**: 有好想法请在 [Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions) 中讨论
+- 🐛 **Bug 报告**: 发现问题请提交 [Issue](https://github.com/G-Fuji/ERNIE-Tutorial/issues)
+- 💡 **功能建议**: 有好想法请在 [Discussions](https://github.com/G-Fuji/ERNIE-Tutorial/discussions) 中讨论
 - 📝 **文档改进**: 帮助完善教程内容和代码注释
 - 🔧 **代码贡献**: 提交 Pull Request 贡献新功能或修复
 - 🎓 **教程扩展**: 贡献新的应用场景和实战案例
@@ -154,8 +154,6 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 ## 📞 联系我们
 
 - **项目维护者**: ERNIE Tutorial Team
-- **问题反馈**: [GitHub Issues](https://github.com/your-username/ERNIE-Tutorial/issues)
-- **功能讨论**: [GitHub Discussions](https://github.com/your-username/ERNIE-Tutorial/discussions)
 - **技术交流**: 欢迎在 Issues 中提出技术问题
 - **微信联系**: G_Fuji
 
@@ -164,7 +162,7 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 感谢以下项目和团队的支持：
 - [百度 PaddlePaddle](https://github.com/PaddlePaddle/Paddle) - 深度学习框架
 - [ERNIEKit](https://github.com/PaddlePaddle/ERNIE) - 官方模型开发套件
-- [ERNIE 模型团队](https://wenxin.baidu.com/) - 提供强大的预训练模型
+- [ERNIE Model Team](https://aistudio.baidu.com/modelsoverview) - Providing powerful pretrained models
 - 所有贡献者和使用者的反馈与支持
 
 ---
@@ -174,6 +172,6 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 🚀 **开始您的 ERNIE 大模型学习之旅吧！**
 
 🔗 **相关链接**
-- [ERNIE 官方文档](https://ernie-bot.baidu.com/)
+- [AI Studio](https://aistudio.baidu.com/)
 - [PaddlePaddle 官网](https://www.paddlepaddle.org.cn/)
 - [ERNIEkit GitHub](https://github.com/PaddlePaddle/ERNIE)
