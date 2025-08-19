@@ -34,8 +34,13 @@ This is a comprehensive tutorial series focused on **ERNIE large language model 
 | 🔄 [Direct Preference Optimization Tutorial (DPO)](training-tutorials/03-direct-preference-optimization/) | Human preference alignment<br/>DPO algorithm | Triplet format<br/>`prompt`/`chosen`/`rejected` | Reward-free training<br/>Output quality improvement | Model safety alignment<br/>Advanced optimization techniques |
 | 💡 [Chinese Sentiment Analysis Tutorial](training-tutorials/04-sentiment-analysis/) | Text classification<br/>End-to-end application | Labeled sentiment data | Business scenario application<br/>Model deployment practice | Real project development<br/>NLP application implementation |
 
+### 🚀 Deployment Tutorials (`deployment-tutorials/`)
+
+| Tutorial | Technology Stack | Deployment Method | Learning Focus | Target Audience |
+|----------|------------------|-------------------|----------------|------------------|
+| 📦 [Ollama Deployment Tutorial](deployment-tutorials/ollama_ernie_deployment_tutorial.ipynb) | Ollama + ERNIE-4.5-0.3B | Local deployment<br/>One-click setup | Quick model deployment<br/>Local inference service | Developers<br/>Local testing scenarios |
+
 ### Coming Soon
-- 🚀 **Deployment Tutorials**: Model serving, API development, performance optimization
 - 🎨 **Creative Applications**: Chatbots, content generation, code assistants
 
 ## 🛠️ Tech Stack
@@ -101,10 +106,14 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 | `03-direct-preference-optimization/` | `dpo_tutorial.ipynb` | Triplet format | DPO optimized models, results |
 | `04-sentiment-analysis/` | `sentiment_analysis.ipynb` | Labeled data | Classification models, demo applications |
 
+### 🚀 Deployment Tutorials (`deployment-tutorials/`)
+| Tutorial Directory | Main Files | Deployment Method | Output Content |
+|--------------------|------------|-------------------|----------------|
+| `deployment-tutorials/` | `ollama_ernie_deployment_tutorial_en.ipynb` | Ollama local deployment | Running model service, API endpoints |
+
 ### 🚀 Coming Soon
 | Directory | Planned Content |
 |-----------|------------------|
-| `deployment-tutorials/` | Model quantization, inference optimization, service deployment |
 | `creative-applications/` | Chatbots, content generation, code assistants |
 | `docs/` | Installation guide, troubleshooting, API reference |
 | `assets/` | Tutorial images, demo videos |
