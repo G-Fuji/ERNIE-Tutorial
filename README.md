@@ -38,7 +38,7 @@ This is a comprehensive tutorial series focused on **ERNIE large language model 
 
 | Tutorial | Technology Stack | Deployment Method | Learning Focus | Target Audience |
 |----------|------------------|-------------------|----------------|------------------|
-| 📦 [Ollama Deployment Tutorial](deployment-tutorials/ollama_ernie_deployment_tutorial.ipynb) | Ollama + ERNIE-4.5-0.3B | Local deployment<br/>One-click setup | Quick model deployment<br/>Local inference service | Developers<br/>Local testing scenarios |
+| 📦 [Ollama Deployment Tutorial](deployment-tutorials/Ollama/ollama_ernie_deployment_tutorial.ipynb) | Ollama + ERNIE-4.5-0.3B | Local deployment<br/>One-click setup | Quick model deployment<br/>Local inference service | Developers<br/>Local testing scenarios |
 
 ### Coming Soon
 - 🎨 **Creative Applications**: Chatbots, content generation, code assistants
@@ -107,9 +107,10 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 | `04-sentiment-analysis/` | `sentiment_analysis.ipynb` | Labeled data | Classification models, demo applications |
 
 ### 🚀 Deployment Tutorials (`deployment-tutorials/`)
-| Tutorial Directory | Main Files | Deployment Method | Output Content |
-|--------------------|------------|-------------------|----------------|
-| `deployment-tutorials/` | `ollama_ernie_deployment_tutorial_en.ipynb` | Ollama local deployment | Running model service, API endpoints |
+| Tutorial Directory | Main Files | Tech Stack | Deployment Method | Learning Focus | Target Audience |
+|--------------------|------------|------------|-------------------|----------------|------------------|
+| `Ollama/` | `ollama_ernie_deployment_tutorial.ipynb` | Ollama | Local deployment | Quick deployment, CLI usage | Beginners, local testing |
+| `vLLM/` | `vllm_ernie_deployment_tutorial.ipynb`<br/>`vllm_ernie_deployment_tutorial_zh.ipynb` | vLLM, OpenAI API | High-performance serving | Production deployment, API integration | Developers, production use |
 
 ### 🚀 Coming Soon
 | Directory | Planned Content |

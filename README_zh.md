@@ -41,7 +41,7 @@
 
 | 教程 | 技术栈 | 部署方式 | 学习重点 | 适合人群 |
 |------|--------|----------|----------|----------|
-| 📦 [Ollama 部署教程](deployment-tutorials/ollama_ernie_deployment_tutorial_zh.ipynb) | Ollama + ERNIE-4.5-0.3B | 本地部署<br/>一键设置 | 快速模型部署<br/>本地推理服务 | 开发者<br/>本地测试场景 |
+| 📦 [Ollama 部署教程](deployment-tutorials/Ollama/ollama_ernie_deployment_tutorial_zh.ipynb) | Ollama + ERNIE-4.5-0.3B | 本地部署<br/>一键设置 | 快速模型部署<br/>本地推理服务 | 开发者<br/>本地测试场景 |
 
 ### 即将推出
 
@@ -112,9 +112,10 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 | `04-sentiment-analysis/` | `sentiment_analysis.ipynb` | 标注数据 | 分类模型、演示应用 |
 
 ### 🚀 部署教程 (`deployment-tutorials/`)
-| 教程目录 | 主要文件 | 部署方式 | 输出内容 |
-|----------|----------|----------|----------|
-| `deployment-tutorials/` | `ollama_ernie_deployment_tutorial_zh.ipynb` | Ollama 本地部署 | 运行中的模型服务、API端点 |
+| 教程目录 | 主要文件 | 技术栈 | 部署方式 | 学习重点 | 适合人群 |
+|----------|----------|--------|----------|----------|----------|
+| `Ollama/` | `ollama_ernie_deployment_tutorial_zh.ipynb` | Ollama | 本地部署 | 快速部署、命令行使用 | 初学者、本地测试 |
+| `vLLM/` | `vllm_ernie_deployment_tutorial_zh.ipynb`<br/>`vllm_ernie_deployment_tutorial.ipynb` | vLLM、OpenAI API | 高性能服务 | 生产部署、API集成 | 开发者、生产环境 |
 
 ### 🚀 即将推出的教程
 | 目录 | 内容规划 |
