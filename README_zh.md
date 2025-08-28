@@ -42,6 +42,8 @@
 | 教程 | 技术栈 | 部署方式 | 学习重点 | 适合人群 |
 |------|--------|----------|----------|----------|
 | 📦 [Ollama 部署教程](deployment-tutorials/Ollama/ollama_ernie_deployment_tutorial_zh.ipynb) | Ollama + ERNIE-4.5-0.3B | 本地部署<br/>一键设置 | 快速模型部署<br/>本地推理服务 | 开发者<br/>本地测试场景 |
+| ⚡ [vLLM 部署教程](deployment-tutorials/vLLM/vllm_ernie_deployment_tutorial_zh.ipynb) | vLLM + PyTorch | 高性能推理<br/>生产环境部署 | GPU加速<br/>批处理优化 | 生产环境<br/>高吞吐场景 |
+| 🚀 [SGLang 部署教程](deployment-tutorials/SGLang/sglang_ernie_deployment_tutorial_zh.ipynb) | SGLang + PyTorch | 高性能推理 | GPU加速<br/>结构化生成 | 开发者<br/>研究人员 |
 
 ### 即将推出
 
@@ -93,44 +95,7 @@ pip install --upgrade aistudio-sdk
 aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 ```
 
-### 选择学习路径
 
-| 路径类型 | 学习顺序 | 适合人群 |
-|----------|----------|----------|
-| **🔰 初学者** | 预训练 → 监督微调 → 情感分析实战 | 深度学习基础，想系统学习 |
-| **🚀 进阶者** | 基础概念 → 直接偏好优化 → 高级应用 | 有ML经验，关注前沿技术 |
-| **💼 实战者** | 情感分析实战 → 按需回顾理论 → 业务应用 | 解决具体问题，快速上手 |
-
-## 📁 项目结构
-
-### 🎯 核心训练教程 (`training-tutorials/`)
-| 教程目录 | 主要文件 | 数据格式 | 输出内容 |
-|----------|----------|----------|----------|
-| `01-pretraining/` | `pretraining_tutorial.ipynb` | `.bin/.idx` 格式 | 预训练模型权重、日志、检查点 |
-| `02-supervised-finetuning/` | `supervised_finetuning.ipynb` | `.jsonl` 格式 | 微调模型、训练日志 |
-| `03-direct-preference-optimization/` | `dpo_tutorial.ipynb` | 三元组格式 | DPO优化模型、结果 |
-| `04-sentiment-analysis/` | `sentiment_analysis.ipynb` | 标注数据 | 分类模型、演示应用 |
-
-### 🚀 部署教程 (`deployment-tutorials/`)
-| 教程目录 | 主要文件 | 技术栈 | 部署方式 | 学习重点 | 适合人群 |
-|----------|----------|--------|----------|----------|----------|
-| `Ollama/` | `ollama_ernie_deployment_tutorial_zh.ipynb` | Ollama | 本地部署 | 快速部署、命令行使用 | 初学者、本地测试 |
-| `SGLang/` | `sglang_ernie_deployment_tutorial_zh.md` | SGLang、PyTorch | 高性能推理 | GPU加速、结构化生成 | 开发者、研究人员 |
-| `vLLM/` | `vllm_ernie_deployment_tutorial_zh.ipynb`| vLLM、OpenAI API | 高性能服务 | 生产部署、API集成 | 开发者、生产环境 |
-
-### 🚀 即将推出的教程
-| 目录 | 内容规划 |
-|------|----------|
-| `creative-applications/` | 对话机器人、内容生成、代码助手 |
-
-
-## 📚 教程特点
-
-| 特点类别 | 核心优势 | 具体体现 |
-|----------|----------|----------|
-| **🎯 实用性强** | 真实场景应用 | OpenWebTextCorpus数据、端到端流程、官方ERNIEKit标准、性能优化技巧 |
-| **🔬 技术深度** | 原理与实践并重 | Transformer/DPO算法解析、代码逐行详解、方法对比分析、前沿技术覆盖 |
-| **🛠️ 易于上手** | 降低学习门槛 | 单GPU支持、详细文档、模块化设计、丰富示例代码 |
 
 ## 🤝 贡献指南
 

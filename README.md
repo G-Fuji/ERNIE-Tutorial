@@ -39,6 +39,8 @@ This is a comprehensive tutorial series focused on **ERNIE large language model 
 | Tutorial | Technology Stack | Deployment Method | Learning Focus | Target Audience |
 |----------|------------------|-------------------|----------------|------------------|
 | 📦 [Ollama Deployment Tutorial](deployment-tutorials/Ollama/ollama_ernie_deployment_tutorial.ipynb) | Ollama + ERNIE-4.5-0.3B | Local deployment<br/>One-click setup | Quick model deployment<br/>Local inference service | Developers<br/>Local testing scenarios |
+| ⚡ [vLLM Deployment Tutorial](deployment-tutorials/vLLM/vllm_ernie_deployment_tutorial.ipynb) | vLLM + PyTorch | High-performance inference<br/>Production deployment | GPU acceleration<br/>Batch processing optimization | Production environments<br/>High-throughput scenarios |
+| 🚀 [SGLang Deployment Tutorial](deployment-tutorials/SGLang/sglang_ernie_deployment_tutorial.ipynb) | SGLang + PyTorch | High-performance inference | GPU acceleration<br/>Structured generation | Developers<br/>Research |
 
 ### Coming Soon
 - 🎨 **Creative Applications**: Chatbots, content generation, code assistants
@@ -88,45 +90,6 @@ pip install --upgrade aistudio-sdk
 aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 ```
 
-### Choose Your Learning Path
-
-| Path Type | Learning Order | Target Audience |
-|-----------|----------------|------------------|
-| **🔰 Beginner** | Pretraining → Supervised Fine-tuning → Sentiment Analysis | Deep learning basics, systematic learning |
-| **🚀 Advanced** | Basic concepts → Direct Preference Optimization → Advanced applications | ML experience, cutting-edge technology |
-| **💼 Practical** | Sentiment Analysis → Theory as needed → Business applications | Solving specific problems, quick start |
-
-## 📁 Project Structure
-
-### 🎯 Core Training Tutorials (`training-tutorials/`)
-| Tutorial Directory | Main Files | Data Format | Output Content |
-|--------------------|------------|-------------|----------------|
-| `01-pretraining/` | `pretraining_tutorial.ipynb` | `.bin/.idx` format | Pretrained model weights, logs, checkpoints |
-| `02-supervised-finetuning/` | `supervised_finetuning.ipynb` | `.jsonl` format | Fine-tuned models, training logs |
-| `03-direct-preference-optimization/` | `dpo_tutorial.ipynb` | Triplet format | DPO optimized models, results |
-| `04-sentiment-analysis/` | `sentiment_analysis.ipynb` | Labeled data | Classification models, demo applications |
-
-### 🚀 Deployment Tutorials (`deployment-tutorials/`)
-| Tutorial Directory | Main Files | Tech Stack | Deployment Method | Learning Focus | Target Audience |
-|--------------------|------------|------------|-------------------|----------------|------------------|
-| `Ollama/` | `ollama_ernie_deployment_tutorial.ipynb` | Ollama | Local deployment | Quick deployment, CLI usage | Beginners, local testing |
-| `SGLang/` | `sglang_ernie_deployment_tutorial.ipynb` | SGLang, PyTorch | High-performance inference | GPU acceleration, structured generation | Developers, research |
-| `vLLM/` | `vllm_ernie_deployment_tutorial.ipynb`<br/>`vllm_ernie_deployment_tutorial_zh.ipynb` | vLLM, OpenAI API | High-performance serving | Production deployment, API integration | Developers, production use |
-
-### 🚀 Coming Soon
-| Directory | Planned Content |
-|-----------|------------------|
-| `creative-applications/` | Chatbots, content generation, code assistants |
-| `docs/` | Installation guide, troubleshooting, API reference |
-| `assets/` | Tutorial images, demo videos |
-
-## 📚 Tutorial Features
-
-| Feature Category | Core Advantages | Specific Examples |
-|------------------|-----------------|-------------------|
-| **🎯 Practical** | Real-world applications | OpenWebTextCorpus data, end-to-end workflows, official ERNIEKit standards, performance optimization |
-| **🔬 Technical Depth** | Theory meets practice | Transformer/DPO algorithm explanations, line-by-line code analysis, method comparisons, cutting-edge technology |
-| **🛠️ User-Friendly** | Lower learning barriers | Single GPU support, detailed documentation, modular design, rich code examples |
 
 ## 🤝 Contributing
 
