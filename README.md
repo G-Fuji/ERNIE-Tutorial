@@ -110,6 +110,7 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 | Tutorial Directory | Main Files | Tech Stack | Deployment Method | Learning Focus | Target Audience |
 |--------------------|------------|------------|-------------------|----------------|------------------|
 | `Ollama/` | `ollama_ernie_deployment_tutorial.ipynb` | Ollama | Local deployment | Quick deployment, CLI usage | Beginners, local testing |
+| `SGLang/` | `sglang_ernie_deployment_tutorial.ipynb` | SGLang, PyTorch | High-performance inference | GPU acceleration, structured generation | Developers, research |
 | `vLLM/` | `vllm_ernie_deployment_tutorial.ipynb`<br/>`vllm_ernie_deployment_tutorial_zh.ipynb` | vLLM, OpenAI API | High-performance serving | Production deployment, API integration | Developers, production use |
 
 ### 🚀 Coming Soon

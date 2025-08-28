@@ -115,7 +115,8 @@ aistudio download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/E
 | 教程目录 | 主要文件 | 技术栈 | 部署方式 | 学习重点 | 适合人群 |
 |----------|----------|--------|----------|----------|----------|
 | `Ollama/` | `ollama_ernie_deployment_tutorial_zh.ipynb` | Ollama | 本地部署 | 快速部署、命令行使用 | 初学者、本地测试 |
-| `vLLM/` | `vllm_ernie_deployment_tutorial_zh.ipynb`<br/>`vllm_ernie_deployment_tutorial.ipynb` | vLLM、OpenAI API | 高性能服务 | 生产部署、API集成 | 开发者、生产环境 |
+| `SGLang/` | `sglang_ernie_deployment_tutorial_zh.md` | SGLang、PyTorch | 高性能推理 | GPU加速、结构化生成 | 开发者、研究人员 |
+| `vLLM/` | `vllm_ernie_deployment_tutorial_zh.ipynb`| vLLM、OpenAI API | 高性能服务 | 生产部署、API集成 | 开发者、生产环境 |
 
 ### 🚀 即将推出的教程
 | 目录 | 内容规划 |
